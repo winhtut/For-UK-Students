@@ -1,0 +1,3 @@
+C:/Users/National Cyber City/CLionProjects/UK/cmake-build-debug/CMakeFiles/UK.dir
+C:/Users/National Cyber City/CLionProjects/UK/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/National Cyber City/CLionProjects/UK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
