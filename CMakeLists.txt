@@ -3,4 +3,4 @@ project(UK C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(UK 1-DayUK/8-star-pattern.c)
+add_executable(UK 2-DayUK/2-control.c)

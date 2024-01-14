@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/National$ Cyber$ City/CLionProjects/UK/cmake-bui
 
 build cmake_object_order_depends_target_UK: phony || CMakeFiles/UK.dir
 
-build CMakeFiles/UK.dir/1-DayUK/8-star-pattern.c.obj: C_COMPILER__UK_Debug C$:/Users/National$ Cyber$ City/CLionProjects/UK/1-DayUK/8-star-pattern.c || cmake_object_order_depends_target_UK
-  DEP_FILE = CMakeFiles\UK.dir\1-DayUK\8-star-pattern.c.obj.d
+build CMakeFiles/UK.dir/2-DayUK/2-control.c.obj: C_COMPILER__UK_Debug C$:/Users/National$ Cyber$ City/CLionProjects/UK/2-DayUK/2-control.c || cmake_object_order_depends_target_UK
+  DEP_FILE = CMakeFiles\UK.dir\2-DayUK\2-control.c.obj.d
   FLAGS = -g -std=gnu11
   OBJECT_DIR = CMakeFiles\UK.dir
-  OBJECT_FILE_DIR = CMakeFiles\UK.dir\1-DayUK
+  OBJECT_FILE_DIR = CMakeFiles\UK.dir\2-DayUK
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/UK.dir/1-DayUK/8-star-pattern.c.obj: C_COMPILER__UK_Debug C$:/U
 #############################################
 # Link the executable UK.exe
 
-build UK.exe: C_EXECUTABLE_LINKER__UK_Debug CMakeFiles/UK.dir/1-DayUK/8-star-pattern.c.obj
+build UK.exe: C_EXECUTABLE_LINKER__UK_Debug CMakeFiles/UK.dir/2-DayUK/2-control.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\UK.dir
