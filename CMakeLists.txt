@@ -3,4 +3,4 @@ project(UK C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(UK 2-DayUK/11-Array.c)
+add_executable(UK 3-DayUK/7-fileIO-2.c)
