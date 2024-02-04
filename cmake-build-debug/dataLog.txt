@@ -1,0 +1,26 @@
+Ready-To-Data-Analysis: DataLog:5585.899902 5585.899902 52.500000
+Calibrated Mapped Values : DataLog:1392.379761 1392.379761 13.086511
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:418.899994 418.899994 52.500000
+Calibrated Mapped Values : DataLog:104.417885 104.417885 13.086511
+Ready-To-Data-Analysis: DataLog:465.399994 465.399994 0.900000
+Calibrated Mapped Values : DataLog:116.008797 116.008797 0.224340
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:465.299988 465.299988 0.900000
+Calibrated Mapped Values : DataLog:115.983871 115.983871 0.224340
+Ready-To-Data-Analysis: DataLog:361.899994 361.899994 0.900000
+Calibrated Mapped Values : DataLog:90.209679 90.209679 0.224340
+Ready-To-Data-Analysis: DataLog:51.700001 51.700001 0.900000
+Calibrated Mapped Values : DataLog:12.887096 12.887096 0.224340
+Ready-To-Data-Analysis: DataLog:465.399994 465.399994 0.900000
+Calibrated Mapped Values : DataLog:116.008797 116.008797 0.224340
