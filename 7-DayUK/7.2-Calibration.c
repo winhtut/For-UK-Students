@@ -15,7 +15,6 @@ int main() {
         fprintf(stderr, "Error opening serial port\n");
         return 1;
     }
-
     // Set device parameters
     dcbSerialParams.DCBlength = sizeof(dcbSerialParams);
     if (!GetCommState(hSerial, &dcbSerialParams)) {
