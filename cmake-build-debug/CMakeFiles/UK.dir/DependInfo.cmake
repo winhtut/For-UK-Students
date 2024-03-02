@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/7-DayUK/7.2-Calibration.c" "CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj" "gcc" "CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj.d"
+  "F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/12-Day/12.2-LLDS-single2.c" "CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.obj" "gcc" "CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

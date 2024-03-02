@@ -4,4 +4,4 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-        7-DayUK/7.2-Calibration.c)
+        12-Day/12.2-LLDS-single2.c)

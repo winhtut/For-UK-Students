@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj"
-  "CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj.d"
+  "CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.obj"
+  "CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.obj.d"
   "UK.exe"
   "UK.exe.manifest"
   "UK.pdb"

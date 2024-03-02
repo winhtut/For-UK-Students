@@ -128,29 +128,29 @@ UK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/build
 .PHONY : UK/fast
 
-7-DayUK/7.2-Calibration.obj: 7-DayUK/7.2-Calibration.c.obj
-.PHONY : 7-DayUK/7.2-Calibration.obj
+12-Day/12.2-LLDS-single2.obj: 12-Day/12.2-LLDS-single2.c.obj
+.PHONY : 12-Day/12.2-LLDS-single2.obj
 
 # target to build an object file
-7-DayUK/7.2-Calibration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj
-.PHONY : 7-DayUK/7.2-Calibration.c.obj
+12-Day/12.2-LLDS-single2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.obj
+.PHONY : 12-Day/12.2-LLDS-single2.c.obj
 
-7-DayUK/7.2-Calibration.i: 7-DayUK/7.2-Calibration.c.i
-.PHONY : 7-DayUK/7.2-Calibration.i
+12-Day/12.2-LLDS-single2.i: 12-Day/12.2-LLDS-single2.c.i
+.PHONY : 12-Day/12.2-LLDS-single2.i
 
 # target to preprocess a source file
-7-DayUK/7.2-Calibration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.i
-.PHONY : 7-DayUK/7.2-Calibration.c.i
+12-Day/12.2-LLDS-single2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.i
+.PHONY : 12-Day/12.2-LLDS-single2.c.i
 
-7-DayUK/7.2-Calibration.s: 7-DayUK/7.2-Calibration.c.s
-.PHONY : 7-DayUK/7.2-Calibration.s
+12-Day/12.2-LLDS-single2.s: 12-Day/12.2-LLDS-single2.c.s
+.PHONY : 12-Day/12.2-LLDS-single2.s
 
 # target to generate assembly for a file
-7-DayUK/7.2-Calibration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.s
-.PHONY : 7-DayUK/7.2-Calibration.c.s
+12-Day/12.2-LLDS-single2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.s
+.PHONY : 12-Day/12.2-LLDS-single2.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... UK
-	@echo ... 7-DayUK/7.2-Calibration.obj
-	@echo ... 7-DayUK/7.2-Calibration.i
-	@echo ... 7-DayUK/7.2-Calibration.s
+	@echo ... 12-Day/12.2-LLDS-single2.obj
+	@echo ... 12-Day/12.2-LLDS-single2.i
+	@echo ... 12-Day/12.2-LLDS-single2.s
 .PHONY : help
 
 
