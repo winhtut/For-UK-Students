@@ -128,29 +128,29 @@ UK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/build
 .PHONY : UK/fast
 
-12-Day/12.2-LLDS-single2.obj: 12-Day/12.2-LLDS-single2.c.obj
-.PHONY : 12-Day/12.2-LLDS-single2.obj
+13-Day/13.1-stackDS.obj: 13-Day/13.1-stackDS.c.obj
+.PHONY : 13-Day/13.1-stackDS.obj
 
 # target to build an object file
-12-Day/12.2-LLDS-single2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.obj
-.PHONY : 12-Day/12.2-LLDS-single2.c.obj
+13-Day/13.1-stackDS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.obj
+.PHONY : 13-Day/13.1-stackDS.c.obj
 
-12-Day/12.2-LLDS-single2.i: 12-Day/12.2-LLDS-single2.c.i
-.PHONY : 12-Day/12.2-LLDS-single2.i
+13-Day/13.1-stackDS.i: 13-Day/13.1-stackDS.c.i
+.PHONY : 13-Day/13.1-stackDS.i
 
 # target to preprocess a source file
-12-Day/12.2-LLDS-single2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.i
-.PHONY : 12-Day/12.2-LLDS-single2.c.i
+13-Day/13.1-stackDS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.i
+.PHONY : 13-Day/13.1-stackDS.c.i
 
-12-Day/12.2-LLDS-single2.s: 12-Day/12.2-LLDS-single2.c.s
-.PHONY : 12-Day/12.2-LLDS-single2.s
+13-Day/13.1-stackDS.s: 13-Day/13.1-stackDS.c.s
+.PHONY : 13-Day/13.1-stackDS.s
 
 # target to generate assembly for a file
-12-Day/12.2-LLDS-single2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/12-Day/12.2-LLDS-single2.c.s
-.PHONY : 12-Day/12.2-LLDS-single2.c.s
+13-Day/13.1-stackDS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.s
+.PHONY : 13-Day/13.1-stackDS.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... UK
-	@echo ... 12-Day/12.2-LLDS-single2.obj
-	@echo ... 12-Day/12.2-LLDS-single2.i
-	@echo ... 12-Day/12.2-LLDS-single2.s
+	@echo ... 13-Day/13.1-stackDS.obj
+	@echo ... 13-Day/13.1-stackDS.i
+	@echo ... 13-Day/13.1-stackDS.s
 .PHONY : help
 
 
