@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.obj"
-  "CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.obj.d"
+  "CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.obj"
+  "CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.obj.d"
   "UK.exe"
   "UK.exe.manifest"
   "UK.pdb"

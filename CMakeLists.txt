@@ -4,7 +4,5 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-
-        13-Day/13.1-stackDS.c
         N1C_Header/n1cDS.h
-        13-Day/13.2-IntroductionToOOP.cpp)
+        15-Day/15.1-QueueDSMain.c)

@@ -128,29 +128,29 @@ UK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/build
 .PHONY : UK/fast
 
-13-Day/13.1-stackDS.obj: 13-Day/13.1-stackDS.c.obj
-.PHONY : 13-Day/13.1-stackDS.obj
+15-Day/15.1-QueueDSMain.obj: 15-Day/15.1-QueueDSMain.c.obj
+.PHONY : 15-Day/15.1-QueueDSMain.obj
 
 # target to build an object file
-13-Day/13.1-stackDS.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.obj
-.PHONY : 13-Day/13.1-stackDS.c.obj
+15-Day/15.1-QueueDSMain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.obj
+.PHONY : 15-Day/15.1-QueueDSMain.c.obj
 
-13-Day/13.1-stackDS.i: 13-Day/13.1-stackDS.c.i
-.PHONY : 13-Day/13.1-stackDS.i
+15-Day/15.1-QueueDSMain.i: 15-Day/15.1-QueueDSMain.c.i
+.PHONY : 15-Day/15.1-QueueDSMain.i
 
 # target to preprocess a source file
-13-Day/13.1-stackDS.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.i
-.PHONY : 13-Day/13.1-stackDS.c.i
+15-Day/15.1-QueueDSMain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.i
+.PHONY : 15-Day/15.1-QueueDSMain.c.i
 
-13-Day/13.1-stackDS.s: 13-Day/13.1-stackDS.c.s
-.PHONY : 13-Day/13.1-stackDS.s
+15-Day/15.1-QueueDSMain.s: 15-Day/15.1-QueueDSMain.c.s
+.PHONY : 15-Day/15.1-QueueDSMain.s
 
 # target to generate assembly for a file
-13-Day/13.1-stackDS.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/13-Day/13.1-stackDS.c.s
-.PHONY : 13-Day/13.1-stackDS.c.s
+15-Day/15.1-QueueDSMain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.s
+.PHONY : 15-Day/15.1-QueueDSMain.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... UK
-	@echo ... 13-Day/13.1-stackDS.obj
-	@echo ... 13-Day/13.1-stackDS.i
-	@echo ... 13-Day/13.1-stackDS.s
+	@echo ... 15-Day/15.1-QueueDSMain.obj
+	@echo ... 15-Day/15.1-QueueDSMain.i
+	@echo ... 15-Day/15.1-QueueDSMain.s
 .PHONY : help
 
 
