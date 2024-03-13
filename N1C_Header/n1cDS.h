@@ -5,6 +5,7 @@
 #ifndef UK_N1CDS_H
 #define UK_N1CDS_H
 #include "stdio.h"
+#include "stdlib.h"
 
 //Stack DataStructure Using array start
 #define MAX_SIZE 10
@@ -176,5 +177,63 @@ int Queue_LL_Dequeue(struct Queue_LL_structure* queue){
     return data;
 
 }
+
+int Queue_LL_Peek(struct Queue_LL_structure* queue){
+
+    if(Queue_LL_isEmpty(queue)){
+        printf(" Queus is Empty!\n");
+        return -1;
+    } else{
+        return queue->front->data;
+    }
+}
+// End of Queue
+
+// Starting normal Tree
+
+struct Tree_normal_node{
+    int data;
+    struct Tree_normal_node* left;
+    struct Tree_normal_node* right;
+};
+
+struct Tree_normal_node* createNode(int data){
+    struct Tree_normal_node* newNode=(struct Tree_normal_node*)malloc(sizeof(struct Tree_normal_node));
+    if(newNode==NULL){
+        printf("Memory allocation failed!\n");
+        exit(1);
+    }
+    newNode->data = data;
+    newNode->left=NULL;
+    newNode->right = NULL;
+
+    return newNode;
+}
+
+struct Tree_normal_node* insertNode(struct Tree_normal_node* root, int data){
+
+    if(root==NULL){
+        return createNode(data);
+    }
+    if(data< root->data){
+        root->left = insertNode(root->left,data);
+    } else{
+        root->right = insertNode(root->right,data);
+    }
+
+    return root;
+}
+
+void Tree_normal_inorderTraversal(struct Tree_normal_node* root){
+
+    if(root !=NULL){
+        Tree_normal_inorderTraversal(root->left);
+        printf("-%d-",root->data);
+        Tree_normal_inorderTraversal(root->right);
+    }
+
+
+}
+
 
 #endif //UK_N1CDS_H

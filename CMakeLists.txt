@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
         N1C_Header/n1cDS.h
-        15-Day/15.1-QueueDSMain.c)
+        15-Day/15.2-TreeDS.c)

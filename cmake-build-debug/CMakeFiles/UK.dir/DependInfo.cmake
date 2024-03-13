@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/15-Day/15.1-QueueDSMain.c" "CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.obj" "gcc" "CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.obj.d"
+  "F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/15-Day/15.2-TreeDS.c" "CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj" "gcc" "CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

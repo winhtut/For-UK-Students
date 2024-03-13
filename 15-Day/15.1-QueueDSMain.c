@@ -16,5 +16,11 @@ int main(){
     Queue_LL_enqueue(&queue,300);
     Queue_LL_enqueue(&queue,400);
 
+    printf("Data Dequeued %d\n",Queue_LL_Dequeue(&queue));
+    printf("Peek on Queue %d\n", Queue_LL_Peek(&queue));
+    printf("Data Dequeued %d\n",Queue_LL_Dequeue(&queue));
+    Queue_LL_enqueue(&queue,500);
+    printf("Peek on Queue %d\n", Queue_LL_Peek(&queue));
+
 
 }

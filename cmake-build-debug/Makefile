@@ -128,29 +128,29 @@ UK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/build
 .PHONY : UK/fast
 
-15-Day/15.1-QueueDSMain.obj: 15-Day/15.1-QueueDSMain.c.obj
-.PHONY : 15-Day/15.1-QueueDSMain.obj
+15-Day/15.2-TreeDS.obj: 15-Day/15.2-TreeDS.c.obj
+.PHONY : 15-Day/15.2-TreeDS.obj
 
 # target to build an object file
-15-Day/15.1-QueueDSMain.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.obj
-.PHONY : 15-Day/15.1-QueueDSMain.c.obj
+15-Day/15.2-TreeDS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj
+.PHONY : 15-Day/15.2-TreeDS.c.obj
 
-15-Day/15.1-QueueDSMain.i: 15-Day/15.1-QueueDSMain.c.i
-.PHONY : 15-Day/15.1-QueueDSMain.i
+15-Day/15.2-TreeDS.i: 15-Day/15.2-TreeDS.c.i
+.PHONY : 15-Day/15.2-TreeDS.i
 
 # target to preprocess a source file
-15-Day/15.1-QueueDSMain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.i
-.PHONY : 15-Day/15.1-QueueDSMain.c.i
+15-Day/15.2-TreeDS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.i
+.PHONY : 15-Day/15.2-TreeDS.c.i
 
-15-Day/15.1-QueueDSMain.s: 15-Day/15.1-QueueDSMain.c.s
-.PHONY : 15-Day/15.1-QueueDSMain.s
+15-Day/15.2-TreeDS.s: 15-Day/15.2-TreeDS.c.s
+.PHONY : 15-Day/15.2-TreeDS.s
 
 # target to generate assembly for a file
-15-Day/15.1-QueueDSMain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.1-QueueDSMain.c.s
-.PHONY : 15-Day/15.1-QueueDSMain.c.s
+15-Day/15.2-TreeDS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.s
+.PHONY : 15-Day/15.2-TreeDS.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... UK
-	@echo ... 15-Day/15.1-QueueDSMain.obj
-	@echo ... 15-Day/15.1-QueueDSMain.i
-	@echo ... 15-Day/15.1-QueueDSMain.s
+	@echo ... 15-Day/15.2-TreeDS.obj
+	@echo ... 15-Day/15.2-TreeDS.i
+	@echo ... 15-Day/15.2-TreeDS.s
 .PHONY : help
 
 
