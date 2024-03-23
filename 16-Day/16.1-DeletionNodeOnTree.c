@@ -13,6 +13,9 @@ int main(){
     insertNode(root,30);
     insertNode(root,60);
     insertNode(root,45);
+    insertNode(root,35);
+    insertNode(root,33);
+    insertNode(root,48);
     insertNode(root,80);
     insertNode(root,15);
     insertNode(root,90);

@@ -283,8 +283,6 @@ struct Tree_normal_node* Tree_normal_Deletion(struct Tree_normal_node* root, int
 
     }
 
-
-
     return root;
 
 }
