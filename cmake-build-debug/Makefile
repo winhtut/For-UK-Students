@@ -128,29 +128,29 @@ UK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/build
 .PHONY : UK/fast
 
-15-Day/15.2-TreeDS.obj: 15-Day/15.2-TreeDS.c.obj
-.PHONY : 15-Day/15.2-TreeDS.obj
+16-Day/16.1-DeletionNodeOnTree.obj: 16-Day/16.1-DeletionNodeOnTree.c.obj
+.PHONY : 16-Day/16.1-DeletionNodeOnTree.obj
 
 # target to build an object file
-15-Day/15.2-TreeDS.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj
-.PHONY : 15-Day/15.2-TreeDS.c.obj
+16-Day/16.1-DeletionNodeOnTree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj
+.PHONY : 16-Day/16.1-DeletionNodeOnTree.c.obj
 
-15-Day/15.2-TreeDS.i: 15-Day/15.2-TreeDS.c.i
-.PHONY : 15-Day/15.2-TreeDS.i
+16-Day/16.1-DeletionNodeOnTree.i: 16-Day/16.1-DeletionNodeOnTree.c.i
+.PHONY : 16-Day/16.1-DeletionNodeOnTree.i
 
 # target to preprocess a source file
-15-Day/15.2-TreeDS.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.i
-.PHONY : 15-Day/15.2-TreeDS.c.i
+16-Day/16.1-DeletionNodeOnTree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.i
+.PHONY : 16-Day/16.1-DeletionNodeOnTree.c.i
 
-15-Day/15.2-TreeDS.s: 15-Day/15.2-TreeDS.c.s
-.PHONY : 15-Day/15.2-TreeDS.s
+16-Day/16.1-DeletionNodeOnTree.s: 16-Day/16.1-DeletionNodeOnTree.c.s
+.PHONY : 16-Day/16.1-DeletionNodeOnTree.s
 
 # target to generate assembly for a file
-15-Day/15.2-TreeDS.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.s
-.PHONY : 15-Day/15.2-TreeDS.c.s
+16-Day/16.1-DeletionNodeOnTree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.s
+.PHONY : 16-Day/16.1-DeletionNodeOnTree.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... UK
-	@echo ... 15-Day/15.2-TreeDS.obj
-	@echo ... 15-Day/15.2-TreeDS.i
-	@echo ... 15-Day/15.2-TreeDS.s
+	@echo ... 16-Day/16.1-DeletionNodeOnTree.obj
+	@echo ... 16-Day/16.1-DeletionNodeOnTree.i
+	@echo ... 16-Day/16.1-DeletionNodeOnTree.s
 .PHONY : help
 
 

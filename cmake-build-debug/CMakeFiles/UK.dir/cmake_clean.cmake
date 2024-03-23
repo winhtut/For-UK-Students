@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj"
-  "CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj.d"
+  "CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj"
+  "CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj.d"
   "UK.exe"
   "UK.exe.manifest"
   "UK.pdb"

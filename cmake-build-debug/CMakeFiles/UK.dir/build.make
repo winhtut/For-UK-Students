@@ -68,28 +68,28 @@ include CMakeFiles/UK.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/UK.dir/flags.make
 
-CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj: CMakeFiles/UK.dir/flags.make
-CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj: F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/15-Day/15.2-TreeDS.c
-CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj: CMakeFiles/UK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj -MF CMakeFiles\UK.dir\15-Day\15.2-TreeDS.c.obj.d -o CMakeFiles\UK.dir\15-Day\15.2-TreeDS.c.obj -c F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\15-Day\15.2-TreeDS.c
+CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj: CMakeFiles/UK.dir/flags.make
+CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj: F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/16-Day/16.1-DeletionNodeOnTree.c
+CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj: CMakeFiles/UK.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj -MF CMakeFiles\UK.dir\16-Day\16.1-DeletionNodeOnTree.c.obj.d -o CMakeFiles\UK.dir\16-Day\16.1-DeletionNodeOnTree.c.obj -c F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\16-Day\16.1-DeletionNodeOnTree.c
 
-CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\15-Day\15.2-TreeDS.c > CMakeFiles\UK.dir\15-Day\15.2-TreeDS.c.i
+CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\16-Day\16.1-DeletionNodeOnTree.c > CMakeFiles\UK.dir\16-Day\16.1-DeletionNodeOnTree.c.i
 
-CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\15-Day\15.2-TreeDS.c -o CMakeFiles\UK.dir\15-Day\15.2-TreeDS.c.s
+CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\MySourceCode\2024Coding\Zoom\ForUK\For-UK-Students\16-Day\16.1-DeletionNodeOnTree.c -o CMakeFiles\UK.dir\16-Day\16.1-DeletionNodeOnTree.c.s
 
 # Object files for target UK
 UK_OBJECTS = \
-"CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj"
+"CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj"
 
 # External object files for target UK
 UK_EXTERNAL_OBJECTS =
 
-UK.exe: CMakeFiles/UK.dir/15-Day/15.2-TreeDS.c.obj
+UK.exe: CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj
 UK.exe: CMakeFiles/UK.dir/build.make
 UK.exe: CMakeFiles/UK.dir/linkLibs.rsp
 UK.exe: CMakeFiles/UK.dir/objects1.rsp

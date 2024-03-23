@@ -235,5 +235,60 @@ void Tree_normal_inorderTraversal(struct Tree_normal_node* root){
 
 }
 
+struct Tree_normal_node* findMin(struct Tree_normal_node* root){
+
+    if(root==NULL){
+
+        return NULL;
+    }
+    while (root->left !=NULL){
+        root = root->left;
+
+    }
+    return root;
+
+}
+
+struct Tree_normal_node* Tree_normal_Deletion(struct Tree_normal_node* root, int data){
+    if(root == NULL){
+        return root;
+    } else if(data < root->data){
+
+        root->left =Tree_normal_Deletion(root->left,data);
+
+    } else if(data > root->data){
+
+        root->right = Tree_normal_Deletion(root->right,data);
+
+    } else{
+
+        // case 1: No child or 1 child
+        if(root->left == NULL){
+
+            struct Tree_normal_node* temp = root->right;
+            free(root);
+            return temp;
+
+        } else if(root->right == NULL){
+
+            struct Tree_normal_node* temp = root->left;
+            free(root);
+            return temp;
+        }
+        // case 2 : 2 childrens
+        struct Tree_normal_node* temp = findMin(root->right);
+        root->data = temp->data;
+
+        root->right = Tree_normal_Deletion(root->right, temp->data);
+
+    }
+
+
+
+    return root;
+
+}
+
+
 
 #endif //UK_N1CDS_H
