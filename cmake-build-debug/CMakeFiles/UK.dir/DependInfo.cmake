@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/16-Day/16.1-DeletionNodeOnTree.c" "CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj" "gcc" "CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj.d"
+  "F:/MySourceCode/2024Coding/Zoom/ForUK/For-UK-Students/17-Day/17.1-AVLtree.c" "CMakeFiles/UK.dir/17-Day/17.1-AVLtree.c.obj" "gcc" "CMakeFiles/UK.dir/17-Day/17.1-AVLtree.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -5,5 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
         N1C_Header/n1cDS.h
-        16-Day/16.1-DeletionNodeOnTree.c
+        17-Day/17.1-AVLtree.c
 )

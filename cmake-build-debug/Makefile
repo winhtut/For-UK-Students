@@ -128,29 +128,29 @@ UK/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/build
 .PHONY : UK/fast
 
-16-Day/16.1-DeletionNodeOnTree.obj: 16-Day/16.1-DeletionNodeOnTree.c.obj
-.PHONY : 16-Day/16.1-DeletionNodeOnTree.obj
+17-Day/17.1-AVLtree.obj: 17-Day/17.1-AVLtree.c.obj
+.PHONY : 17-Day/17.1-AVLtree.obj
 
 # target to build an object file
-16-Day/16.1-DeletionNodeOnTree.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.obj
-.PHONY : 16-Day/16.1-DeletionNodeOnTree.c.obj
+17-Day/17.1-AVLtree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/17-Day/17.1-AVLtree.c.obj
+.PHONY : 17-Day/17.1-AVLtree.c.obj
 
-16-Day/16.1-DeletionNodeOnTree.i: 16-Day/16.1-DeletionNodeOnTree.c.i
-.PHONY : 16-Day/16.1-DeletionNodeOnTree.i
+17-Day/17.1-AVLtree.i: 17-Day/17.1-AVLtree.c.i
+.PHONY : 17-Day/17.1-AVLtree.i
 
 # target to preprocess a source file
-16-Day/16.1-DeletionNodeOnTree.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.i
-.PHONY : 16-Day/16.1-DeletionNodeOnTree.c.i
+17-Day/17.1-AVLtree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/17-Day/17.1-AVLtree.c.i
+.PHONY : 17-Day/17.1-AVLtree.c.i
 
-16-Day/16.1-DeletionNodeOnTree.s: 16-Day/16.1-DeletionNodeOnTree.c.s
-.PHONY : 16-Day/16.1-DeletionNodeOnTree.s
+17-Day/17.1-AVLtree.s: 17-Day/17.1-AVLtree.c.s
+.PHONY : 17-Day/17.1-AVLtree.s
 
 # target to generate assembly for a file
-16-Day/16.1-DeletionNodeOnTree.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/16-Day/16.1-DeletionNodeOnTree.c.s
-.PHONY : 16-Day/16.1-DeletionNodeOnTree.c.s
+17-Day/17.1-AVLtree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UK.dir\build.make CMakeFiles/UK.dir/17-Day/17.1-AVLtree.c.s
+.PHONY : 17-Day/17.1-AVLtree.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... UK
-	@echo ... 16-Day/16.1-DeletionNodeOnTree.obj
-	@echo ... 16-Day/16.1-DeletionNodeOnTree.i
-	@echo ... 16-Day/16.1-DeletionNodeOnTree.s
+	@echo ... 17-Day/17.1-AVLtree.obj
+	@echo ... 17-Day/17.1-AVLtree.i
+	@echo ... 17-Day/17.1-AVLtree.s
 .PHONY : help
 
 

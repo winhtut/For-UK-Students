@@ -287,6 +287,121 @@ struct Tree_normal_node* Tree_normal_Deletion(struct Tree_normal_node* root, int
 
 }
 
+// Binary Search Tree Ending Here
+// Starting Balanced Binary Search Tree (BBST) AVL
+
+struct AVL_Node{
+    int key;
+    struct AVL_Node* left;
+    struct AVL_Node* right;
+    int height;
+
+};
+int AVL_height(struct AVL_Node *Node){
+
+    if(Node == NULL){
+        return 0;
+    }
+    return Node->height;
+
+}
+
+int max(int a, int b){
+    return (a>b)?a:b;
+
+}
+
+int AVL_getBalance(struct AVL_Node* node){
+
+    if(node==NULL){
+        return 0;
+    }
+    return AVL_height(node->left)- AVL_height(node->right);
+
+
+}
+struct AVL_Node* AVL_newNode(int key){
+   struct AVL_Node* newNode=(struct AVL_Node*) malloc(sizeof(struct AVL_Node) );
+   newNode->key = key;
+   newNode->left = NULL;
+   newNode->right = NULL;
+   newNode->height = 1;
+
+    return newNode;
+}
+
+struct AVL_Node* AVL_rightrotate(struct AVL_Node *y){
+    struct AVL_Node* x =y->left;
+    struct AVL_Node* T2 = x->right;
+
+    x->right = y;
+    y->left = T2;
+
+    // update heights
+     y->height =max(AVL_height(y->left), AVL_height(y->right))+1 ;
+     x->height = max(AVL_height(x->left), AVL_height(y->right))+1;
+
+
+    return x;
+}
+
+struct AVL_Node* AVL_leftrotate(struct AVL_Node* x){
+
+    struct AVL_Node* y = x->right;
+    struct AVL_Node* T2 = y->left;
+
+    y->left = x;
+    x->right = T2 ;
+    x->height =max(AVL_height(x->left), AVL_height(x->right))+1 ;
+    y->height = max(AVL_height(y->left), AVL_height(y->right))+1;
+
+    return y;
+}
+
+struct AVL_Node* AVL_insert(struct AVL_Node* node , int key){
+
+    if(node == NULL){
+        return (AVL_newNode(key));
+    }
+
+    if(key<node->key){
+
+        node->left = AVL_insert(node->left,key);
+    } else if(key>node->key){
+        node->right = AVL_insert(node->right,key);
+    } else{
+
+        printf("Key cannot be same in AVL tree!\n");
+        return node;
+
+    }
+
+    node->height = max(AVL_height(node->left), AVL_height(node->right))+1;
+
+
+    int balance =AVL_getBalance(node);
+
+    if(balance > 1 && key<node->left->key){ // for left unbalanced
+        return AVL_rightrotate(node);
+    }
+
+    if(balance<-1 && key> node->right->key){
+        return AVL_leftrotate(node);
+    }
+
+    if(balance > 1 && key> node->left->key){
+
+        node->left = AVL_leftrotate(node->left);
+        return AVL_rightrotate(node);
+    }
+
+    if(balance<-1 && key < node->right->key){
+        node->right =AVL_rightrotate(node->right);
+        return AVL_leftrotate(node);
+    }
+
+    return node;
+}
 
 
 #endif //UK_N1CDS_H
