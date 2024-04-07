@@ -16,6 +16,10 @@ int main(){
    root =  AVL_insert(root,5);
    root =  AVL_insert(root,3);
    root =  AVL_insert(root,8);
+   root =  AVL_insert(root,10);
+   root =  AVL_insert(root,15);
+   root =  AVL_insert(root,20);
+   root =  AVL_insert(root,25);
 
 
 

@@ -320,6 +320,23 @@ int AVL_getBalance(struct AVL_Node* node){
 
 
 }
+
+struct AVL_Node* minimunNode(struct AVL_Node* node){ // right
+
+    struct AVL_Node* current = node ;
+
+    while (current->left != NULL){
+
+        current = current->left;
+
+    }
+
+
+    return current;
+}
+
+
+
 struct AVL_Node* AVL_newNode(int key){
    struct AVL_Node* newNode=(struct AVL_Node*) malloc(sizeof(struct AVL_Node) );
    newNode->key = key;
@@ -403,5 +420,71 @@ struct AVL_Node* AVL_insert(struct AVL_Node* node , int key){
     return node;
 }
 
+struct AVL_Node* AVL_delete(struct AVL_Node* root , int key){
+
+    if(root == NULL){
+        return root;
+    }
+    if(key<root->key){
+        root->left = AVL_delete(root->left,key);
+    } else if(key>root->key){
+        root->right = AVL_delete(root->right,key);
+    } else{
+        // root key have no child left and right ;
+        if((root->left==NULL)|| (root->right == NULL)){
+            struct AVL_Node* temp = root->left ?root->left:root->right;
+            // if our node is leaf node
+            if(temp == NULL){
+                temp = root;
+                root = NULL;
+            // if we have one child ( that child will contain in the temp)
+            } else{
+                *root = *temp;
+                free(temp);
+            }
+
+        } else{ // if we have to child or childs are also a sub tree ;
+            // inorder successor
+           struct AVL_Node* temp = minimunNode(root->right);
+           root->key = temp->key;
+            // တိုက်ရိုက် ဖျက်ကြည့်မယ်
+            root->right =AVL_delete(root->right,temp->key);
+
+        }
+
+    }
+
+    root->height = max(AVL_height(root->left), AVL_height(root->right))+1;
+
+
+    int balance =AVL_getBalance(root);
+
+    if(balance > 1 && key<root->left->key){ // for left unbalanced
+        return AVL_rightrotate(root);
+    }
+
+    if(balance<-1 && key> root->right->key){
+        return AVL_leftrotate(root);
+    }
+
+    if(balance > 1 && key> root->left->key){
+
+        root->left = AVL_leftrotate(root->left);
+        return AVL_rightrotate(root);
+    }
+
+    if(balance<-1 && key < root->right->key){
+        root->right =AVL_rightrotate(root->right);
+        return AVL_leftrotate(root);
+    }
+
+    return root;
+
+
+}
 
 #endif //UK_N1CDS_H
+// print for avl
+// deletion debug
+// our own deletion
+// project using AVL tree
