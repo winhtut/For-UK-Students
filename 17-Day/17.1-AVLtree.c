@@ -19,8 +19,13 @@ int main(){
    root =  AVL_insert(root,10);
    root =  AVL_insert(root,15);
    root =  AVL_insert(root,20);
-   root =  AVL_insert(root,25);
+    AVL_inorder(root);
+    root = AVL_delete(root,7);
+    printf("\nAfter deletion key,%d\n",7);
+    AVL_inorder(root);
 
-
+    root = AVL_delete(root,8);
+    printf("\nAfter deletion key,%d\n",8);
+    AVL_inorder(root);
 
 }

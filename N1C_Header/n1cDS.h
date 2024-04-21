@@ -453,6 +453,9 @@ struct AVL_Node* AVL_delete(struct AVL_Node* root , int key){
         }
 
     }
+    if(root==NULL){
+        return root;
+    }
 
     root->height = max(AVL_height(root->left), AVL_height(root->right))+1;
 
@@ -479,6 +482,18 @@ struct AVL_Node* AVL_delete(struct AVL_Node* root , int key){
     }
 
     return root;
+
+
+}
+
+struct AVL_Node* AVL_inorder(struct AVL_Node* node){
+
+    if(node!=NULL){
+        AVL_inorder(node->left);
+        printf("%d-",node->key);
+        AVL_inorder(node->right);
+    }
+
 
 
 }
